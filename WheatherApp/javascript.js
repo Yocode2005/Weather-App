@@ -1,5 +1,5 @@
 const apikey = "cd2898f279d2936921edc0d99498e4c3";
-const apiurl = "https://api.openweathermap.org/data/2.5/weather?&units=metric&q=";
+const apiurl = "https://api.openweathermap.org/data/2.5/weather?&units=metric&q="; // openweathermap api
 
 const searchBox = document.querySelector(".search input");
 const searchBtn = document.querySelector(".search button");// when people will click on the search button it should send the city information to checkweather function
