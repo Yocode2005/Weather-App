@@ -18,7 +18,7 @@ async function checkWeather(city){
 
     // console.log(data);
 // data ko update krne ke liye
-    document.querySelector(".city").innerHTML = data.name;
+    document.querySelector(".city").innerHTML = data.name; // 
     document.querySelector(".temp").innerHTML = Math.round(data.main.temp) + "°C";// data ke andr main me jakr temp ko acess kiya 
     document.querySelector(".humidity").innerHTML = data.main.humidity + "%";
     document.querySelector(".wind").innerHTML = data.wind.speed + "Km/h";
@@ -40,7 +40,7 @@ async function checkWeather(city){
         weatherIcon.src = "/WheatherApp/mist.png";
     }
 
-    document.querySelector(".weather").style.display = "block";
+    document.querySelector(".weather").style.display = "block"; // for disply in block
     document.querySelector(".error").style.display = "none";
    
 
