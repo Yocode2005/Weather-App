@@ -25,7 +25,7 @@ async function checkWeather(city){ // function to fetch data form the api
 
     // weather according image ko changes krne ke liye
     if(data.weather[0].main == "Clouds"){
-         weatherIcon.src ="/WheatherApp/cloudy.png";
+         weatherIcon.src ="/WheatherApp/cloudy.png"; // cloudy png
     }
     else if(data.weather[0].main == "Clear"){
         weatherIcon.src = "/WheatherApp/sun.png";
