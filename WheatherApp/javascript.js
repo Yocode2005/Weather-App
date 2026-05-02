@@ -6,7 +6,7 @@ const searchBtn = document.querySelector(".search button");// when people will c
 
 const weatherIcon = document.querySelector(".weather-icon");// to acess weather icon div
 
-async function checkWeather(city){
+async function checkWeather(city){ // function to fetch data form the api
     const response = await fetch(apiurl + city + `&appid=${apikey}`);
 
     if(response.status == 404){ // add response status
