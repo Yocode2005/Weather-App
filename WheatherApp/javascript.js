@@ -34,7 +34,7 @@ async function checkWeather(city){ // function to fetch data form the api
         weatherIcon.src = "/WheatherApp/rain(2).png";
     }
     else if(data.weather[0].main == "Drizzle"){
-        weatherIcon.src = "/WheatherApp/drizzle.png";
+        weatherIcon.src = "/WheatherApp/drizzle.png"; // drizzel image
     }
     else if(data.weather[0].main == "Mist"){
         weatherIcon.src = "/WheatherApp/mist.png";
