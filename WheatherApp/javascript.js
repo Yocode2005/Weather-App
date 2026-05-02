@@ -14,7 +14,7 @@ async function checkWeather(city){
         document.querySelector(".weather").style.display = "none";
     }
     else{
-         var data = await response.json();
+         var data = await response.json(); // for getting response
 
     // console.log(data);
 // data ko update krne ke liye
