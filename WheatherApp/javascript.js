@@ -4,7 +4,7 @@ const apiurl = "https://api.openweathermap.org/data/2.5/weather?&units=metric&q=
 const searchBox = document.querySelector(".search input");
 const searchBtn = document.querySelector(".search button");// when people will click on the search button it should send the city information to checkweather function
 
-const weatherIcon = document.querySelector(".weather-icon");
+const weatherIcon = document.querySelector(".weather-icon");// to acess weather icon div
 
 async function checkWeather(city){
     const response = await fetch(apiurl + city + `&appid=${apikey}`);
